@@ -284,4 +284,4 @@ print('primal value {}'.format(res[2]))
 
 # License
 
-The code is released under the MIT license (see LICENSE.TXT).
+The code is released under the MIT license (see LICENSE).
