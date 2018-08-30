@@ -131,7 +131,7 @@ class Model_l1_ball(Model):
             result[i] = -1 if gradient_at_x[i] > 0 else 1
         return result
 
-l1Ball = Model_l1_ball(100)  # initialize the feasible region as a L1 ball of dimension 50000
+l1Ball = Model_l1_ball(100)  # initialize the feasible region as a L1 ball of dimension 100
 
 # define function evaluation oracle and its gradient oracle
 # the following example function is (x-shift)^2, where x is a n dimension vector
@@ -265,7 +265,7 @@ class Model_l1_ball(Model):
             i = np.argmax(np.abs(gradient_at_x))
             result[i] = -1 if gradient_at_x[i] > 0 else 1
         return result
-l1Ball = Model_l1_ball(100)  # initialize the feasible region as a L1 ball of dimension 50000
+l1Ball = Model_l1_ball(100)  # initialize the feasible region as a L1 ball of dimension 100
 
 # define function evaluation oracle and its gradient oracle
 # the following example function is (x-shift)^2, where x is a n dimension vector
