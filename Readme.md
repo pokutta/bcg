@@ -35,7 +35,7 @@ Many... but we are working on them. Most importantly:
 ## Get Started
 ```BCG``` is the only function you may need to call to use this package.The following is a detailed explanation on its input parameters and return value.
 
-Syntax: BCG(f, f_grad, model, run_config=None)
+Syntax: `BCG(f, f_grad, model, run_config=None)`
 * **Parameters**
     * ``f``: callable func(x). \
     Objective function. It should be smooth convex.
